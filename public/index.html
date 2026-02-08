@@ -1,0 +1,90 @@
+<!doctype html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:fb="http://ogp.me/ns/fb#"
+>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#091292" />
+    <meta name="description" content="React Js Developer" />
+    <meta
+      name="keywords"
+      content="Taha Ahmed, Taha Ahmed, react js, javascript, front end developer, portfolio, react developer, ui developer"
+    />
+    <style>
+      /* Projects section - exact content height */
+      #projects + .particle-container {
+        position: absolute !important;
+        height: calc(100% - 50px) !important; /* Reduce extra space */
+        top: 0;
+        left: 0;
+      }
+
+      /* Projects container padding fix */
+      #projects .container {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+      }
+
+      /* Remove extra margin from last project */
+      #projects .proj-opacity:last-child {
+        margin-bottom: 0 !important;
+      }
+
+      /* Projects section height */
+      #projects {
+        min-height: auto !important;
+        padding-bottom: 20px;
+      }
+
+      /* Skills section fix */
+      #skills + .particle-container {
+        position: absolute !important;
+        height: 100% !important;
+        top: 0;
+        left: 0;
+      }
+
+      /* Home remains same */
+      #home + .particle-container {
+        position: fixed !important;
+        height: 100vh !important;
+      }
+    </style>
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="image_src" href="%PUBLIC_URL%/preview.png" />
+    <title>Taha Ahmed - Portfolio</title>
+
+    <!-- Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash,
+          );
+        }
+      })(window.location);
+    </script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
