@@ -1,6 +1,7 @@
-const Ecommerce = "/static/images/Ecommerce.png";
-const Islam = "/static/images/Islam.png";
-const Login = "/static/images/Login.png";
+// Change from .png to .PNG
+const Ecommerce = "/static/images/Ecommerce.PNG";
+const Islam = "/static/images/Islam.PNG";
+const Login = "/static/images/Login.PNG";
 
 export const projectsList = [
   {
@@ -9,7 +10,7 @@ export const projectsList = [
     src: "https://ecommerce-website-react-dusky.vercel.app/",
     githubSrc: "https://github.com/beingtaha/ecommerce-website-react",
     stack: ["React", "JavaScript", "CSS", "Vercel"],
-    imgSrc: "/static/images/Ecommerce.png", // Direct path
+    imgSrc: "/static/images/Ecommerce.PNG", // ✅ Changed to .PNG
   },
   {
     label: "Islamic Guide Web",
@@ -17,7 +18,7 @@ export const projectsList = [
     src: "https://islamic-guide-web.vercel.app/",
     githubSrc: "https://github.com/beingtaha/islamic-guide-web",
     stack: ["React", "CSS", "JavaScript", "Vercel"],
-    imgSrc: "/static/images/Islam.png", // Direct path
+    imgSrc: "/static/images/Islam.PNG", // ✅ Changed to .PNG
   },
   {
     label: "Login System",
@@ -25,7 +26,7 @@ export const projectsList = [
     src: "https://login-system-mu-lilac.vercel.app/login",
     githubSrc: "https://github.com/beingtaha/login-system",
     stack: ["React", "Authentication", "CSS", "Vercel"],
-    imgSrc: "/static/images/Login.png", // Direct path
+    imgSrc: "/static/images/Login.PNG", // ✅ Changed to .PNG
   },
 ];
 export const skillsData = [
