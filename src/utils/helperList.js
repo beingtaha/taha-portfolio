@@ -29,6 +29,7 @@ export const projectsList = [
     imgSrc: "/static/images/Login.PNG", // ✅ Changed to .PNG
   },
 ];
+
 export const skillsData = [
   { name: "React.js", rating: 85 },
   { name: "JavaScript (ES6+)", rating: 80 },
