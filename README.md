@@ -20,8 +20,8 @@
 | Project | Tech Stack | Live Demo | GitHub |
 |---------|------------|-----------|--------|
 | 🛒 **ShopEasy E-commerce** | React, JavaScript, CSS | [Live](https://ecommerce-website-react-dusky.vercel.app) | [Code](https://github.com/beingtaha/ecommerce-website-react) |
-| 🔐 **Login System** | React, Form Handling | [Live](https://login-system-mu-lilac.vercel.app/login) | [Code]([https://github.com/beingtaha](https://github.com/beingtaha/login-system)) |
-| 📖 **Islamic Guide Web** | React, API Integration | [Live](https://islamic-guide-web.vercel.app) | [Code]([https://github.com/beingtaha](https://github.com/beingtaha/islamic-guide-web)) |
+| 🔐 **Login System** | React, Form Handling | [Live](https://login-system-mu-lilac.vercel.app/login) | [Code](https://github.com/beingtaha/login-system) |
+| 📖 **Islamic Guide Web** | React, API Integration | [Live](https://islamic-guide-web.vercel.app) | [Code](https://github.com/beingtaha/islamic-guide-web) |
 
 ## 📫 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tahaahmed-402822152)
