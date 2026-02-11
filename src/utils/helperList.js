@@ -74,7 +74,7 @@ export const contactDetails = [
     iconSrc: "static/icons/linkedin.svg",
     type: "LinkedIn",
     data: "Taha Ahmed",
-    href: "https://www.linkedin.com/in/taha-ahmed-402822152/",
+    href: "https://www.linkedin.com/in/tahaa-ahmed/",
   },
   {
     iconSrc: "static/icons/phone.png",
