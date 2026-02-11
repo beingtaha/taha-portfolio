@@ -24,7 +24,7 @@
 | 📖 **Islamic Guide Web** | React, API Integration | [Live](https://islamic-guide-web.vercel.app) | [Code](https://github.com/beingtaha/islamic-guide-web) |
 
 ## 📫 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/tahaa-ahmed/])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahaa-ahmed/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:tahaahmed434@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://taha-portfolio-gold.vercel.app)
 
