@@ -1,4 +1,3 @@
-// Change from .png to .PNG
 const Ecommerce = "/static/images/Ecommerce.PNG";
 const Islam = "/static/images/Islam.PNG";
 const Login = "/static/images/Login.PNG";
@@ -74,7 +73,7 @@ export const contactDetails = [
     iconSrc: "static/icons/linkedin.svg",
     type: "LinkedIn",
     data: "Taha Ahmed",
-    href: "https://www.linkedin.com/in/taha-ahmed-402822152/",
+    href: "https://www.linkedin.com/in/tahaa-ahmed/",
   },
   {
     iconSrc: "static/icons/phone.png",
