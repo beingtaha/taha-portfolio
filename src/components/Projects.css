@@ -1,0 +1,214 @@
+/* components/Projects.css */
+
+/* ============================================
+   PROJECTS SECTION STYLING
+   ============================================ */
+
+/* Projects Header */
+.projects-header {
+  margin-bottom: 2rem;
+}
+
+/* ============================================
+   CATEGORY TABS - Exactly like Skills section
+   ============================================ */
+
+.projects-categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0 3rem 0;
+}
+
+/* Tab Buttons - Skills section se copy kiya */
+.projects-categories .category-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(5px);
+  border: 2px solid #f0f0f0;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 180px;
+  gap: 0.75rem;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover Effect */
+.projects-categories .category-tab:hover {
+  transform: translateY(-5px);
+  border-color: #667eea;
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.15);
+}
+
+/* Active Tab - Gradient background */
+.projects-categories .category-tab.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+}
+
+/* Tab Icon */
+.projects-categories .tab-icon {
+  font-size: 2rem;
+}
+
+/* Tab Name */
+.projects-categories .tab-name {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Project Count Badge */
+.tab-count {
+  font-size: 0.8rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  margin-left: 0.3rem;
+}
+
+/* Active tab mein count badge */
+.category-tab.active .tab-count {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================
+   PROJECT CARDS - Existing styling enhance kiya
+   ============================================ */
+
+/* Project images ko thoda effect */
+.proj-image {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proj-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Badges styling */
+.badge-secondary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 500 !important;
+  border: none !important;
+}
+
+/* Links styling */
+a {
+  color: #667eea;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN - Mobile ke liye
+   ============================================ */
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  .projects-categories {
+    gap: 0.8rem;
+  }
+  
+  .projects-categories .category-tab {
+    padding: 1rem 1.5rem;
+    min-width: 150px;
+  }
+  
+  .projects-categories .tab-icon {
+    font-size: 1.6rem;
+  }
+  
+  .projects-categories .tab-name {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .projects-categories {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projects-categories .category-tab {
+    width: 250px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+  }
+  
+  .projects-categories .tab-icon {
+    font-size: 1.4rem;
+  }
+  
+  /* Projects row adjustment */
+  .proj-opacity {
+    text-align: center;
+  }
+  
+  .proj-image {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 360px) {
+  .projects-categories .category-tab {
+    width: 220px;
+  }
+  
+  .tab-count {
+    font-size: 0.7rem;
+  }
+}
+/* ============================================
+   SECTION HEADER STYLING - Like Skills section
+   ============================================ */
+
+/* Section Divider - Skills se copy kiya */
+.section-divider {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 1rem 0 1rem 3rem;  /* ml-lg-5 ke liye */
+  border-radius: 2px;
+}
+
+/* Section Subtitle */
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .section-divider {
+    margin-left: 1rem !important;
+  }
+  
+  .section-subtitle {
+    margin-left: 1rem !important;
+    font-size: 1rem;
+  }
+}
