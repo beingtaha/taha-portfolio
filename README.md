@@ -1,6 +1,5 @@
 # 👨‍💻 Taha Ahmed | Frontend & Mobile App Developer
 
-![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-brightgreen)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
